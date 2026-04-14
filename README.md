@@ -1,16 +1,64 @@
-# React + Vite
+# 🚀 DevConnect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao **DevConnect**, uma plataforma social moderna construída para desenvolvedores compartilharem seus projetos, conectarem-se com a comunidade e descobrirem novas tecnologias.
 
-Currently, two official plugins are available:
+![DevConnect Banner](https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Funcionalidades
 
-## React Compiler
+- 🔐 **Autenticação Segura**: Sistema de login e registro com JWT.
+- 💻 **Showcase de Projetos**: CRUD completo para você gerenciar seus projetos com links de GitHub e Deploy.
+- 🌐 **Feed da Comunidade**: Explore o que outros desenvolvedores estão construindo.
+- 👤 **Perfil Personalizado**: Mostre suas skills, bio e links sociais.
+- ❤️ **Interação**: Sistema de curtidas em tempo real.
+- 🌓 **Design Premium**: Interface dark-mode moderna com glassmorphism e animações suaves.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologias
 
-## Expanding the ESLint configuration
+### Frontend
+- **React 19** + **Vite**
+- **React Router 7**
+- **Vanilla CSS** (Design System Customizado)
+- **Lucide Icons**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend
+- **Node.js** + **Express**
+- **SQLite** (Better-SQLite3)
+- **JWT** (JSON Web Token)
+- **Bcrypt.js**
+
+## 🚀 Como rodar o projeto
+
+### Pré-requisitos
+- Node.js instalado (v18+)
+
+### 1. Clonar o repositório
+```bash
+git clone https://github.com/silvagithub21/DevConnect.git
+```
+
+### 2. Configurar o Backend
+```bash
+cd backend
+npm install
+# Crie um arquivo .env baseado no .env.example
+npm start
+```
+
+### 3. Configurar o Frontend
+```bash
+# De volta à raiz do projeto
+npm install
+npm run dev
+```
+
+O site estará disponível em `http://localhost:5173` (ou a porta mostrada no terminal).
+
+## 🌍 Deploy
+
+- **Frontend**: Hospedado no **Netlify**.
+- **Backend**: Hospedado no **Render.com**.
+
+---
+
+Desenvolvido por [Silvagithub21](https://github.com/silvagithub21)
