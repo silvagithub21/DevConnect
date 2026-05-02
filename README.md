@@ -2,7 +2,7 @@
 
 Bem-vindo ao **DevConnect**, uma plataforma social moderna construída para desenvolvedores compartilharem seus projetos, conectarem-se com a comunidade e descobrirem novas tecnologias.
 
-![DevConnect Banner](https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop)
+![DevConnect Banner](public/imagem_2026-05-02_102459298.png)
 
 ## ✨ Funcionalidades
 
